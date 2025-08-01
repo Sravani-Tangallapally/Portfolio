@@ -4,7 +4,8 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/<repo-name>/", // 🔹 Replace <repo-name> with your GitHub repo name
+  // ✅ Use '/' for local development and '/Portfolio/' for GitHub Pages
+  base: mode === 'development' ? '/' : '/Portfolio/',
   server: {
     host: "::",
     port: 8080,
