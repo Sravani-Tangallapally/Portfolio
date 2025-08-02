@@ -4,15 +4,15 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  // ✅ Use '/' for local development and '/Portfolio/' for GitHub Pages
-  base: mode === 'development' ? '/' : '/Portfolio/',
+  // ✅ Vercel needs only '/'
+  base: "/",
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {

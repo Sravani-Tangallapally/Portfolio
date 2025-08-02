@@ -50,10 +50,11 @@ const ExperienceSection = () => {
                   <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden">
                     {exp.logo ? (
                       <img
-                        src={exp.logo}
-                        alt={`${exp.company} logo`}
-                        className="w-9 h-9 object-contain"
-                      />
+  src={exp.logo || "/placeholder.svg"}
+  alt={`${exp.company} logo`}
+  className="w-9 h-9 object-contain"
+/>
+
                     ) : null}
                   </div>
                   <div className="flex-1">
