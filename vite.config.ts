@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  // ✅ Vercel needs only '/'
+  // ✅ Correct base path for Vercel
   base: "/",
   server: {
     host: "::",
