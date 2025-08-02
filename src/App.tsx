@@ -14,9 +14,11 @@ const queryClient = new QueryClient();
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
+      {/* ✅ Toast notifications */}
       <Toaster />
       <Sonner />
-      {/* ✅ BrowserRouter without basename for Vercel */}
+
+      {/* ✅ Router without basename for Vercel */}
       <BrowserRouter>
         <Layout>
           <Routes>
@@ -26,7 +28,7 @@ const App = () => (
         </Layout>
       </BrowserRouter>
 
-      {/* ✅ Analytics tracking */}
+      {/* ✅ Analytics for production */}
       <Analytics />
     </TooltipProvider>
   </QueryClientProvider>
