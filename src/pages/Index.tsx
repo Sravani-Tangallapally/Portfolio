@@ -7,6 +7,7 @@ import ResumeSection from "@/components/ResumeSection";
 import ContactSection from "@/components/ContactSection";
 import PublicationsCertifications from "@/components/PublicationsCertifications";
 
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -33,6 +34,8 @@ const Index = () => {
       <section id="experience">
         <ExperienceSection />
       </section>
+
+     
 
       <section id="resume">
         <ResumeSection />

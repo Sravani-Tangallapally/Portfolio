@@ -48,7 +48,7 @@ const skillCategories = [
     skills: [
       "Canva",
       "Adobe",
-      "Figma",
+  
     
     ],
     icon: PenIcon,
