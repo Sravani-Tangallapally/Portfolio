@@ -56,28 +56,8 @@ A modern, responsive personal portfolio built using React, Tailwind CSS, and Fra
 ### Contact  
 ![Contact](public/outputs/8contact.png)
 
----
+--
 
-## How to Run the Project
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/ASHRITH-SAMBARAJU/Portfolio.git
-cd Portfolio
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Start the Development Server
-
-```bash
-npm run dev
-```
 
 ## Contact
 
