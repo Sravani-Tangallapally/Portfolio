@@ -82,8 +82,8 @@ npm run dev
 ## Contact
 
 **Sravani Tangallapally**  
-Email: [ashrithsambaraju@gmail.com](mailto:ashrithsambaraju@gmail.com)  
-LinkedIn: [linkedin.com/in/ashrith-sambaraju](https://www.linkedin.com/in/ashrith-sambaraju)  
+Email: [sravanitangallapally@gmail.com](mailto:ashrithsambaraju@gmail.com)  
+LinkedIn:www.linkedin.com/in/sravani-tangallapally
 
 
 
