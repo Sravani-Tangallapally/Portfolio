@@ -10,19 +10,19 @@ const skillCategories = [
   },
   {
     title: "Programming Languages",
-    skills: [ "Python", "R"],
+    skills: [ "Python" ],
     icon: Code,
     color: "from-blue-500 to-cyan-500",
   },
   {
     title: "Database & Data Storage",
-    skills: ["MySQL", "MongoDB"],
+    skills: ["MySQL","Oracle-sql", "MongoDB"],
     icon: Database,
     color: "from-purple-500 to-pink-500",
   },
   {
     title: "IDEs & Tools",
-    skills: ["Visual Studio", "Jupyter", "Google Colab"],
+    skills: ["Visual Studio", "Google Colab","Pycharm"],
     icon: MonitorSmartphone,
     color: "from-green-500 to-emerald-500",
   },

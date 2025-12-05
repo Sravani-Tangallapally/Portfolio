@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Github, Brain, ShoppingCart, Shield, Code, Database, Smartphone, CropIcon, Leaf, ShoppingBag, Flower2Icon, MoveIcon } from "lucide-react";
+import { Github, Brain, ShoppingCart, Shield, Code, Database, Smartphone, CropIcon, Leaf, ShoppingBag, Flower2Icon, MoveIcon, LeafyGreenIcon, LucideLeaf } from "lucide-react";
 
 const ProjectsSection = () => {
   const projects = [
@@ -11,8 +11,6 @@ const ProjectsSection = () => {
   "techStack": [
     "TensorFlow",
     "Keras",
-    "OpenCV",
-    "Pillow",
     "NumPy",
     "Pandas",
     "Custom CNN",
@@ -22,6 +20,16 @@ const ProjectsSection = () => {
       icon: Brain,
       gradient: "from-blue-500 to-purple-600",
     },
+    {
+  title: "AquaCrop Insight – AI Q&A System for Agriculture",
+  description:
+    "Developed an AI-powered Q&A platform that enables users to ask natural-language questions on rainfall and crop production in India. Built with FastAPI, DuckDB, and Streamlit, it provides SQL-backed, explainable insights from IMD and DES datasets.",
+  techStack: ["FastAPI", "DuckDB", "Streamlit", "SQL", "Python",],
+  github: "https://github.com/Sravani-Tangallapally/AquaCrop-Insight", // replace with actual repo if different
+  icon: LucideLeaf, 
+  gradient: "from-blue-600 to-indigo-700",
+},
+
     {
       title: "E-Commerce Web Application Using MERN Stack",
       description:
@@ -58,15 +66,8 @@ const ProjectsSection = () => {
       icon: Smartphone,
       gradient: "from-indigo-500 to-blue-600",
     },
-    {
-      title: "ML Based - Iris Classification Project",
-      description:
-        "Supervised learning model for Iris flower classification using TensorFlow, scikit-learn, NumPy, and pandas. Trained on the Iris dataset with features like sepal and petal dimensions. Accurately classifies flowers into three species - Setosa, Versicolor, and Virginica using standard ML algorithms.",
-      techStack: ["Python", "Scikit-learn", "Matplotlib", "Pandas", "Seaborn", "NumPy"],
-      github: "https://github.com/Sravani-Tangallapally/IRIS-CLASSIFICATION.git",
-      icon: Flower2Icon,
-      gradient: "from-yellow-500 to-amber-600",
-    },
+   
+    
   ];
 
   return (
