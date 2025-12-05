@@ -63,7 +63,7 @@ A modern, responsive personal portfolio built using React, Tailwind CSS, and Fra
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Sravani-Tangallapally/Portfolio.git
+git clone https://github.com/ASHRITH-SAMBARAJU/Portfolio.git
 cd Portfolio
 ```
 
@@ -82,8 +82,8 @@ npm run dev
 ## Contact
 
 **Sravani Tangallapally**  
-Email: [sravanitangallapally@gmail.com](mailto:sravanitangallapally@gmail.com)  
-LinkedIn: [linkedin.com/in/sravani-tangallapally](https://www.linkedin.com/in/sravani-tangallapally)  
+Email: [ashrithsambaraju@gmail.com](mailto:ashrithsambaraju@gmail.com)  
+LinkedIn: [linkedin.com/in/ashrith-sambaraju](https://www.linkedin.com/in/ashrith-sambaraju)  
 
 
 
