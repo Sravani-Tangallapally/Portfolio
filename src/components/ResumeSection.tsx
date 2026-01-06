@@ -3,14 +3,11 @@ import { Download, FileText, Award, User } from "lucide-react";
 
 const ResumeSection = () => {
   const handleDownloadResume = () => {
-    const link = document.createElement("a");
-link.href = "/sravani-tangallapally-resume.pdf";
-link.download = "Sravani_Tangallapally_Resume.pdf";
-document.body.appendChild(link);
-link.click();
-document.body.removeChild(link);
-
-
+    window.open(
+      "https://drive.google.com/file/d/1sPLTFisjfgv7wFJq2tf8KwqAeqTAfBtW/view",
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
@@ -24,24 +21,36 @@ document.body.removeChild(link);
             <FileText className="w-10 h-10 md:w-12 md:h-12 text-white" />
           </div>
 
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">Complete Professional Profile</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4">
+            Complete Professional Profile
+          </h3>
+
           <p className="text-base md:text-lg text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed px-2">
-            Download my comprehensive resume to explore my complete background, education, 
-            detailed project descriptions, and professional achievements.
+            View my comprehensive resume to explore my complete background,
+            education, detailed project descriptions, and professional
+            achievements.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-gray-800 mb-10">
             <div className="flex items-center gap-3 justify-center">
               <User className="w-5 h-5 md:w-6 md:h-6 text-gray-700" />
-              <span className="text-sm md:text-base font-medium">Complete Background</span>
+              <span className="text-sm md:text-base font-medium">
+                Complete Background
+              </span>
             </div>
+
             <div className="flex items-center gap-3 justify-center">
               <Award className="w-5 h-5 md:w-6 md:h-6 text-gray-700" />
-              <span className="text-sm md:text-base font-medium">Achievements</span>
+              <span className="text-sm md:text-base font-medium">
+                Achievements
+              </span>
             </div>
+
             <div className="flex items-center gap-3 justify-center">
               <FileText className="w-5 h-5 md:w-6 md:h-6 text-gray-700" />
-              <span className="text-sm md:text-base font-medium">Project Details</span>
+              <span className="text-sm md:text-base font-medium">
+                Project Details
+              </span>
             </div>
           </div>
 
@@ -51,7 +60,7 @@ document.body.removeChild(link);
               className="bg-black text-white hover:bg-gray-800 px-8 md:px-12 py-3 md:py-4 text-sm md:text-lg font-medium rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3"
             >
               <Download className="w-5 h-5 md:w-6 md:h-6" />
-              Download Resume (PDF)
+              View Resume (PDF)
             </Button>
           </div>
         </div>
