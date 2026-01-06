@@ -4,11 +4,13 @@ import { Download, FileText, Award, User } from "lucide-react";
 const ResumeSection = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/Sravani%20Tangallapally.pdf"; // Updated file path
-    link.download = "Sravani_Tangallapally_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+link.href = "/sravani-tangallapally-resume.pdf";
+link.download = "Sravani_Tangallapally_Resume.pdf";
+document.body.appendChild(link);
+link.click();
+document.body.removeChild(link);
+
+
   };
 
   return (
