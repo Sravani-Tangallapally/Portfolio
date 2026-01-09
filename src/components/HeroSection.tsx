@@ -107,7 +107,7 @@ const HeroSection = () => {
               className="bg-[#111827] text-white border border-[#111827] hover:bg-white hover:text-[#111827] transition duration-300 px-6 py-3 text-md font-semibold rounded-full shadow-md hover:shadow-xl flex items-center gap-2"
             >
               <Download className="w-5 h-5" />
-              Download Resume
+              View Resume
             </Button>
           </div>
         </motion.div>
